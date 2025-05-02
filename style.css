@@ -8,10 +8,6 @@
     font-family: Audiowide;
 }
 
-span {
-    font-family: Audiowide inherit;
-}
-
 .container {
     width: 85%;
     margin: auto;
