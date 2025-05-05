@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Revalia&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Revalia&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: Audiowide;
+}
+
+body {
+    font-family: Cascadia Code;
 }
 
 .container {
@@ -26,7 +29,6 @@
 }
 
 .banner .w {
-    font-family: sans-serif;
     font-weight: 700;
     font-size: 50px;
     line-height: 70px;
@@ -36,7 +38,6 @@
 }
 
 .banner .d {
-    font-family: sans-serif;
     font-weight: 400px;
     font-size: 20px;
     line-height: 30px;
@@ -79,7 +80,6 @@
 }
 
 .wrap .box span:nth-child(1) {
-    font-family: sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 70px;
@@ -89,7 +89,6 @@
 }
 
 .wrap .box span:nth-child(2) {
-    font-family: sans-serif;
     font-weight: 400px;
     font-size: 25px;
     line-height: 30px;
@@ -108,7 +107,6 @@
 }
 
 .footer span {
-    font-family: sans-serif;
     font-weight: 400px;
     font-size: 20px;
     line-height: 30px;
