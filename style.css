@@ -34,7 +34,7 @@ body {
     line-height: 70px;
     letter-spacing: 0%;
     color: #ffffff;
-    text-shadow:-5px -5px 7px #ce5814, -5px -5px 7px #c4f513, 7px 7px 7px #49d608, 5px 5px 5px #000000;
+    text-shadow: -5px -5px 7px #ce5814, -5px -5px 7px #c4f513, 7px 7px 7px #49d608, 5px 5px 5px #000000;
 }
 
 .banner .d {
@@ -46,6 +46,10 @@ body {
     padding: 20px 0;
 }
 
+
+
+
+
 .banner a {
     padding: 10px;
     width: 150px;
@@ -56,6 +60,18 @@ body {
     line-height: 30px;
     color: #ffffff;
     border-radius: 7px;
+}
+
+a:visited {
+    background-color: dodgerblue;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: hotpink;
 }
 
 .wrap {
